@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 3.0,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|41172380|29425476|09347eba-ccfb-44fa-b3de-952ed9f86c5d|9c21407e-6e18-4012-9ec7-93fcf5582470",
+        "silk_overlap|-2253809|27757380|4717d0fe-4403-41d8-b34e-f32ad0c89ac4|be3c23a4-c711-4e7e-b832-1f8432ee1a89",
+        "silk_overlap|33105000|14100000|b9e0ba15-f372-4a9e-a627-d594778258ac|ec57662c-24bc-4a23-aca5-69bec3216c3a",
+        "silk_overlap|33135000|14100000|58a22765-7f2e-4f66-9ea8-f56fcca75dda|ec57662c-24bc-4a23-aca5-69bec3216c3a",
+        "silk_overlap|33135000|3594980|58a22765-7f2e-4f66-9ea8-f56fcca75dda|9914085e-dc94-4153-9a08-1f96d51c8703",
+        "silk_overlap|40886666|29905000|009c1248-4064-4238-bd7e-d76cb434483d|09347eba-ccfb-44fa-b3de-952ed9f86c5d",
+        "silk_overlap|42605000|29905000|009c1248-4064-4238-bd7e-d76cb434483d|45279c1e-ec49-410f-88c2-2dab3180e09c",
+        "silk_overlap|42605000|29905000|01e8cac9-a842-4fd1-a8cc-160d57dc7e48|45279c1e-ec49-410f-88c2-2dab3180e09c",
+        "silk_overlap|4680000|26757380|d4e95aa0-57e4-47b6-a6b2-4749d2491cdb|4717d0fe-4403-41d8-b34e-f32ad0c89ac4"
+      ],
       "meta": {
         "version": 2
       },
@@ -428,6 +438,30 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "c2a3cd6d-8586-43b1-8f70-a78ab33317ef",
+      "Configurable IO"
+    ],
+    [
+      "1d318f8f-a297-4e68-aeb4-5763d73874be",
+      "Configurable IO2"
+    ],
+    [
+      "cf197e2d-c9a4-43c2-849e-6c1e77072d46",
+      "Configurable IO3"
+    ],
+    [
+      "45fe5757-fe96-461f-9dbf-86bd722a33af",
+      "Configurable IO4"
+    ],
+    [
+      "5a01481a-d3a0-4a35-8dcf-3dc093956669",
+      "Configurable IO5"
+    ],
+    [
+      "a5fb6adb-e009-4839-89e2-2abffc1ccb77",
+      "Configurable IO1"
     ]
   ],
   "text_variables": {}
