@@ -334,6 +334,18 @@
     (uuid e5be0a7a-0418-416c-a73e-5edd9b7aac6c)
   )
 
+  (text "4.7K" (at 88.138 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1b35ceba-fc0c-497f-b452-c9ae99678733)
+  )
+  (text "1.9K for the red LED, 3.9K for the blue LED" (at 30.226 68.834 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8d2ad047-de60-467d-8770-7fbc14670141)
+  )
+  (text "30pF" (at 88.646 56.896 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b7ea6100-ff11-4609-86f6-89b95a0d171e)
+  )
   (text "populate ONLY ONE of these two resistors" (at 30.48 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7b5aef5-6db4-4d76-b01e-c2141429e584)
@@ -360,7 +372,7 @@
     (uuid f493a6d6-2041-42fb-a0af-0dd646be563d)
   )
 
-  (symbol (lib_id "power:GND") (at 82.55 60.96 0)
+  (symbol (lib_id "power:GND") (at 82.55 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 124b3b2d-6007-42b5-971b-d3d8c4fb9d6a)
     (property "Reference" "#PWR0151" (id 0) (at 82.55 67.31 0)
@@ -376,7 +388,7 @@
     (pin "1" (uuid 0ca3f7e2-cf28-4a4d-94be-be66a669af9b))
   )
 
-  (symbol (lib_id "Device:R") (at 74.93 68.58 0)
+  (symbol (lib_id "Device:R") (at 74.93 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1e914b17-999b-4c50-91a9-86d92b98c60c)
     (property "Reference" "R4" (id 0) (at 76.708 67.6715 0)
@@ -395,7 +407,7 @@
     (pin "2" (uuid 2ac106d2-d9a5-41b1-8fef-a864eb0d3f8d))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 104.14 68.58 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 104.14 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 264ce67e-9d40-4f06-a1e1-da8eea9990e9)
     (property "Reference" "J9" (id 0) (at 104.14 60.8035 0))
@@ -411,7 +423,7 @@
     (pin "3" (uuid b9377b87-7db5-429e-ab4c-e6a7da8b1a74))
   )
 
-  (symbol (lib_id "power:GND") (at 91.44 64.77 0)
+  (symbol (lib_id "power:GND") (at 91.44 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3ec43745-6d65-46b0-815f-335537960f75)
     (property "Reference" "#PWR0154" (id 0) (at 91.44 71.12 0)
@@ -427,7 +439,7 @@
     (pin "1" (uuid 25edd6b0-8339-4c8d-a9f7-a6f4c6188645))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 82.55 45.72 0)
+  (symbol (lib_id "power:+3.3V") (at 82.55 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4da7f152-7952-45c5-891c-669f9716b9a0)
     (property "Reference" "#PWR0153" (id 0) (at 82.55 49.53 0)
@@ -443,7 +455,7 @@
     (pin "1" (uuid 4654ac0a-aaed-4137-b4ed-f63ff497bc5d))
   )
 
-  (symbol (lib_id "Device:C") (at 82.55 57.15 0)
+  (symbol (lib_id "Device:C") (at 82.55 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c2f7120-2278-45a9-b968-1cbdfe350cd6)
     (property "Reference" "C5" (id 0) (at 85.471 56.2415 0)
@@ -462,7 +474,7 @@
     (pin "2" (uuid b7a84f0a-29f9-4ffa-8997-15766a427ac2))
   )
 
-  (symbol (lib_id "power:+5V") (at 74.93 64.77 0)
+  (symbol (lib_id "power:+5V") (at 74.93 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9aed5598-9c6d-44ad-9a39-b855a46fbe1f)
     (property "Reference" "#PWR0152" (id 0) (at 74.93 68.58 0)
@@ -478,7 +490,7 @@
     (pin "1" (uuid aff6a032-ee8d-49bf-a511-535ef8971e63))
   )
 
-  (symbol (lib_id "Device:R") (at 82.55 49.53 0)
+  (symbol (lib_id "Device:R") (at 82.55 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c0424ae-cd01-4969-bab8-ffca5c1c1def)
     (property "Reference" "R7" (id 0) (at 84.328 48.6215 0)
@@ -497,7 +509,7 @@
     (pin "2" (uuid 9090f6fc-123f-4e38-b5ff-65a235251ca4))
   )
 
-  (symbol (lib_id "Device:R") (at 74.93 76.2 0)
+  (symbol (lib_id "Device:R") (at 74.93 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c25b2d17-4e55-4dc9-9288-cc23756c50ce)
     (property "Reference" "R6" (id 0) (at 76.708 75.2915 0)
