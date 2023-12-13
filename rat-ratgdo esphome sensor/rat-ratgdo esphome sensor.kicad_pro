@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.4,
-          "width": 1.5
+          "height": 1.8,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,8 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -56,21 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|23625001|13240001|15f86f86-6612-462a-a1d2-f730a8788a9a|4e26d1df-a557-446c-8724-16a2959e6714",
-        "silk_overlap|-2206285|26900238|4717d0fe-4403-41d8-b34e-f32ad0c89ac4|be3c23a4-c711-4e7e-b832-1f8432ee1a89",
-        "silk_overlap|-2253809|27757380|4717d0fe-4403-41d8-b34e-f32ad0c89ac4|be3c23a4-c711-4e7e-b832-1f8432ee1a89",
-        "silk_overlap|21825000|30900714|5c43f0b3-82ef-4d1c-8715-8526c98b8667|40eb823f-50d4-4180-a699-0dcf8da8272a",
-        "silk_overlap|27428000|14100000|b9e0ba15-f372-4a9e-a627-d594778258ac|bade9875-e59b-4d52-b529-c48d7c265fc4",
-        "silk_overlap|33105000|14100000|b9e0ba15-f372-4a9e-a627-d594778258ac|ec57662c-24bc-4a23-aca5-69bec3216c3a",
-        "silk_overlap|33135000|14100000|58a22765-7f2e-4f66-9ea8-f56fcca75dda|ec57662c-24bc-4a23-aca5-69bec3216c3a",
-        "silk_overlap|33135000|3594980|58a22765-7f2e-4f66-9ea8-f56fcca75dda|9914085e-dc94-4153-9a08-1f96d51c8703",
-        "silk_overlap|40886666|29905000|009c1248-4064-4238-bd7e-d76cb434483d|09347eba-ccfb-44fa-b3de-952ed9f86c5d",
-        "silk_overlap|42605000|29905000|009c1248-4064-4238-bd7e-d76cb434483d|45279c1e-ec49-410f-88c2-2dab3180e09c",
-        "silk_overlap|42605000|29905000|01e8cac9-a842-4fd1-a8cc-160d57dc7e48|45279c1e-ec49-410f-88c2-2dab3180e09c",
-        "silk_overlap|4555619|26757380|4717d0fe-4403-41d8-b34e-f32ad0c89ac4|d4e95aa0-57e4-47b6-a6b2-4749d2491cdb",
-        "silk_overlap|4680000|26757380|d4e95aa0-57e4-47b6-a6b2-4749d2491cdb|4717d0fe-4403-41d8-b34e-f32ad0c89ac4"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -87,7 +72,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -103,11 +88,11 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -125,8 +110,6 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
@@ -140,9 +123,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -190,8 +173,9 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.5,
+        0.0,
+        0.4,
+        0.6,
         1.0
       ],
       "via_dimensions": [
@@ -200,8 +184,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -426,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp8266 atmosphere sensor.kicad_pro",
+    "filename": "rat-ratgdo esphome sensor.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -491,18 +474,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -513,32 +486,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "f686f99f-83c8-4998-a442-251951de88cb",
       ""
-    ],
-    [
-      "c2a3cd6d-8586-43b1-8f70-a78ab33317ef",
-      "Configurable IO"
-    ],
-    [
-      "1d318f8f-a297-4e68-aeb4-5763d73874be",
-      "Configurable IO2"
-    ],
-    [
-      "cf197e2d-c9a4-43c2-849e-6c1e77072d46",
-      "Configurable IO3"
-    ],
-    [
-      "45fe5757-fe96-461f-9dbf-86bd722a33af",
-      "Configurable IO4"
-    ],
-    [
-      "5a01481a-d3a0-4a35-8dcf-3dc093956669",
-      "Configurable IO5"
-    ],
-    [
-      "a5fb6adb-e009-4839-89e2-2abffc1ccb77",
-      "Configurable IO1"
     ]
   ],
   "text_variables": {}
